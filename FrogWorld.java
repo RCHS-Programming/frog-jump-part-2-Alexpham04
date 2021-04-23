@@ -47,11 +47,17 @@ public class FrogWorld extends World
         
         //Add another safe Ground zone, y = 270
         
-        
+         for(int i = 0; i < 14; i++)
+        {
+            addObject( new Ground(), 10 + 60*i, 270);
+        }
         
         //Add the top safe Ground zone, y = 30
         
-        
+         for(int i = 0; i < 14; i++)
+        {
+            addObject( new Ground(), 10 + 60*i, 30);
+        }
         
         
     }

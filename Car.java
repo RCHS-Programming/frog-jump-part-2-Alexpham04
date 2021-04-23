@@ -21,4 +21,11 @@ public class Car extends Actor
             setLocation( 0, getY());
         }
     }    
+    /**
+     * Initialize the speed for thr car.
+     */
+    public Car (int setSpeed)
+    {
+        speed = setSpeed;
+    }
 }
