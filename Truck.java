@@ -19,5 +19,11 @@ public class Truck extends Actor
         {
             setLocation( 800, getY());
         }
-    }    
+        {private int speed;
+        
+     /**
+     * Initialize the speed for thr car.
+     */
+        
+   }    
 }

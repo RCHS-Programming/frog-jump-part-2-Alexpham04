@@ -65,13 +65,13 @@ public class FrogWorld extends World
     public void addCars()
     {
         //first row of Cars, all y = 450, speed of 5
-        
+        addObject( new Car(5), 30, 450);
         
         //second row of Cars, all y = 390, speed of 5
-        
+        addObject( new Car(5), 30, 390);
         
         //third row of Cars, all y = 330, speed of 7
-        
+        addObject( new Car(5), 30, 330);
         
     }
     

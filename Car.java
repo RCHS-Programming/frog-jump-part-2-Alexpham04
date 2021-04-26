@@ -15,16 +15,17 @@ public class Car extends Actor
      */
     public void act() 
     {
-        move(5);
+        move(speed);
         if(isAtEdge())
         {
             setLocation( 0, getY());
         }
     }    
+    private int speed;
     /**
      * Initialize the speed for thr car.
      */
-    public Car (int setSpeed)
+    public Car(int setSpeed)
     {
         speed = setSpeed;
     }
